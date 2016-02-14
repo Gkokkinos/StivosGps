@@ -22,7 +22,7 @@ public class ConnectPHP : MonoBehaviour {
 	
 	// Use this for initialization
 	IEnumerator Start () {
-		WWW run = new WWW ("http://katya.herobo.com/Tom_Run/phpdata.php");
+		WWW run = new WWW ("......databas.../connect.php");
 		yield return run;
 		string runString = run.text;
 		runnersNew = runString.Split(';');
